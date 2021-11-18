@@ -1,9 +1,11 @@
 import sys
 a,b= map(int, input().split())
 list=[]
+
 for _ in range(a):
     list.append(float(sys.stdin.readline()))
 list.sort()
+
 for _ in range(b):
     del list[0]
     list.pop()
