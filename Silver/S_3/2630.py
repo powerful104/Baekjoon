@@ -12,6 +12,7 @@ def calc(size,arr):
             cnt1 += 1
             return
     check = 0
+    
     for i in range(size):
         for j in range(size):
             if arr[i][j] == arr[0][0]:
