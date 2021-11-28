@@ -5,6 +5,7 @@ left=[]
 right=[]
 left+=list(input().strip())
 num = int(input())
+
 for _ in range(num):
     li = list(map(str, input().split()))
     if li[0] == "L":
