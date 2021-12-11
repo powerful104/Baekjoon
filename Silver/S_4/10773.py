@@ -1,5 +1,6 @@
 num = int(input())
 li=[]
+
 for _ in range(num):
     n = int(input())
     if n==0:
