@@ -3,6 +3,7 @@ for _ in range(num):
     s=str(input())
     ans=0
     check=0
+    
     for i in range(len(s)):
         if s[i]=="(":
             ans+=1
