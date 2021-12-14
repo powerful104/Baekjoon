@@ -1,5 +1,6 @@
 num = int(input())
 n = 1
+
 while True:
     n+=1
     if num==1:
