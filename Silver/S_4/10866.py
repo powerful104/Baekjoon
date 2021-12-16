@@ -1,6 +1,7 @@
 import sys
 num = int(input())
 Deque=[]
+
 for _ in range(num):
     li = list(map(str, sys.stdin.readline().split()))
     n=0
