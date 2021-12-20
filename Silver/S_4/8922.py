@@ -1,4 +1,5 @@
 tc=int(input())
+
 for _ in range(tc):
     li=[]
     n=int(input())
