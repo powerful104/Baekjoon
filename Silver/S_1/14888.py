@@ -8,6 +8,7 @@ exs = [0]*tmp[0] + [1]*tmp[1] + [2]*tmp[2] + [3]*tmp[3]
 mx = -1000000001
 mn = 1000000001
 exs = list(set(list(permutations(exs,len(exs)))))
+
 for i in exs:
     tmpn = nums[0]
     for j in range(len(i)):
