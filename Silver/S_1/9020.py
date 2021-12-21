@@ -2,6 +2,7 @@ import sys
 a=0
 b=10000
 li = set(range(2,b+1))
+
 for i in range(2, b+1):
     if i in li:
         li -= set(range(2*i,b+1,i))
