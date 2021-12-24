@@ -3,6 +3,7 @@ input = sys.stdin.readline
 a,b,c= map(int, input().split())
 li=[]
 sumli=[]
+
 for _ in range(a):
     li.append(list(map(int, input().split())))
 for i in range(a):
