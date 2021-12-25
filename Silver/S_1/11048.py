@@ -1,7 +1,9 @@
 a,b= map(int, input().split())
 li=[]
+
 for _ in range(a):
     li.append(list(map(int, input().split())))
+
 for i in range(a):
     for j in range(b):
         if i==0:
