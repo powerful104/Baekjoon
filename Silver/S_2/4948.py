@@ -3,6 +3,7 @@ while True:
     if num==0:
         break
     li = set(range(2,2*num+1))
+    
     for i in range(2,2*num+1):
         if i in li:
             li -= set(range(2*i,2*num+1,i))
