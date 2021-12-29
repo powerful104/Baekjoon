@@ -17,6 +17,7 @@ while True:
         break
     i = 3
     j = n-3
+    
     while True:
         if i > j:
             break
