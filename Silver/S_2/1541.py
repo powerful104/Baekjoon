@@ -10,4 +10,5 @@ while cur != len(exp):
         exp[cur:cur+1] = []
     else:
         cur += 1
+        
 print(num[0]-sum(num[1:]))
