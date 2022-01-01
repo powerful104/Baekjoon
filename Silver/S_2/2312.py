@@ -1,5 +1,6 @@
 import collections as co
 nums = int(input())
+
 for _ in range(nums):
     num=int(input())
     li=[]
