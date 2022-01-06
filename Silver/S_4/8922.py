@@ -4,6 +4,7 @@ for _ in range(tc):
     li=[]
     n=int(input())
     li.append(tuple(map(int, input().split())))
+    
     while True:
         tl=[]
         t=0
