@@ -11,5 +11,6 @@ def P(num):
         lit.append(li[i-1])
         li[i]=min(lit)+1
     return li[num]
+
 n = int(input())
 print(P(n))
