@@ -1,4 +1,5 @@
 from math import factorial as f
+
 a,b,c= map(int, input().split())
 if c==0:
     print(f(a+b-2) // (f(a-1) * f(b-1)))
