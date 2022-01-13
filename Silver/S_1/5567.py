@@ -3,6 +3,7 @@ numa = int(input())
 sa=set()
 sf=set()
 li=[]
+
 for _ in range(numa):
     a, b = map(int, input().split())
     li.append([min(a,b),max(a,b)])
