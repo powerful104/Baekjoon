@@ -14,4 +14,5 @@ for i in range(a):
                 li[i][j]+=max(li[i][j-1],li[i-1][j])
             else:
                 li[i][j]+=li[i-1][j]
+
 print(li[a-1][b-1])
