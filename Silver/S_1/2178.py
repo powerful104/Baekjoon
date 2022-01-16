@@ -13,6 +13,7 @@ def solution(maps):
     #BFS
     queue =[(1,1)]
     maps[1][1] = -1
+    
     while len(queue) != 0:
         curX = queue[0][0]
         curY = queue[0][1]
