@@ -2,6 +2,7 @@ def fibo(n):
     fn1 = 1
     fn2 = 1
     fn3 = 1
+    
     if n==1 or n==2 or n==3:
         ans=1
     else:
