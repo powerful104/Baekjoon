@@ -3,6 +3,7 @@ import sys
 heap = []
 input = sys.stdin.readline
 N = int(input())
+
 for _ in range(N):
     x = int(input())
     if x == 0:
