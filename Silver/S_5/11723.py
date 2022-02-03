@@ -3,6 +3,7 @@ input = sys.stdin.readline
 
 num = int(input())
 se=set()
+
 for _ in range(num):
     li = list(map(str, input().split()))
     c = li[0] #command
