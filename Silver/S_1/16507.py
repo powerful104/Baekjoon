@@ -6,6 +6,7 @@ sumli=[]
 
 for _ in range(a):
     li.append(list(map(int, input().split())))
+    
 for i in range(a):
     lit=[]
     sum=0
@@ -13,6 +14,7 @@ for i in range(a):
         sum+=li[i][j]
         lit.append(sum)
     sumli.append(list(lit))
+    
 for _ in range(c):
     r1, c1, r2, c2 = map(int, input().split())
     sum=0
