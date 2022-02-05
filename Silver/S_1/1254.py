@@ -4,7 +4,9 @@ def palin(s):
         if s[i] != s[-(1 + i)]:
             ans = 0
     return ans
+
 s=input()
+
 for i in range(len(s)):
     se=s[i:]
     if palin(se)==1:
