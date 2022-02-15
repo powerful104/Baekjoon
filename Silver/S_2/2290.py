@@ -62,10 +62,12 @@ li=[
     [" "+"-"*a+" "]
 ]
 lit=[]
+
 for i in range(2*a+3):
     s=""
     for j in range(len(str(b))):
         s+=li[int(str(b)[j])][i]+" "
     lit.append(str(s))
+
 for i in lit:
     print(i)
