@@ -9,8 +9,10 @@ siold=0
 sinew=0
 silen=0
 big=0
+
 for _ in range(num):
     li.append(int(sys.stdin.readline()))
+    
 for i in li:
     if i>big:
         siold=len(si)
