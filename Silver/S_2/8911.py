@@ -5,6 +5,7 @@ dir=[(0,1),(1,0),(0,-1),(-1,0)]#시계방향
 dirn=[0,1,2,3]
 
 num = int(input())
+
 for _ in range(num):
     s=input().strip()
     maxx=0
@@ -14,6 +15,7 @@ for _ in range(num):
     x=0
     y=0
     d=0
+    
     for i in list(s):
         if i=="F":
             x+=dir[d][0]
