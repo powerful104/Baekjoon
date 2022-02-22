@@ -1,8 +1,10 @@
 a, b = map(int, input().split())
 li=[]
 ans=1
+
 for _ in range(a):
     li.append(str(input()))
+    
 for i in range(min(a,b)):
     check=0
     for j in range(a-i):
