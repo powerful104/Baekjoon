@@ -1,5 +1,6 @@
 a, b, c= map(int, input().split())
 ans=0
+
 if a<b or a<c:
     ans=-1
 else:
