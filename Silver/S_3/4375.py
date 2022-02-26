@@ -2,6 +2,7 @@ while True:
     try:
         num = int(input())
         s=0
+        
         for _ in range(len(str(num))):
             s=s*10+1
         while True:
