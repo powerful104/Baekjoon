@@ -2,6 +2,7 @@ def fibo(n):
     fn = 0
     fn1 = 1
     ans = fn1
+    
     for _ in range(n - 1):
         ans = fn + fn1
         fn = fn1
