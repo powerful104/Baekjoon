@@ -12,6 +12,7 @@ for _ in range(num):
         if ans<0:
             check=1
             break
+        
     if ans>0 or check==1:
         print("NO")
     else:
