@@ -17,6 +17,7 @@ def calc(size,arr):
         for j in range(size):
             if arr[i][j] == arr[0][0]:
                 check += 1
+                
     if check != size**2:
         calc(size//2, [arr[i][:size//2] for i in range(size//2)])
         calc(size//2, [arr[i][size//2:] for i in range(size//2)])
