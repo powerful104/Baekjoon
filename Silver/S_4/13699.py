@@ -7,4 +7,5 @@ for _ in range(num):
     for i in range(len(li)):
         su+=li[i]*li[len(li)-i-1]
     li.append(su)
+    
 print(li[-1])
