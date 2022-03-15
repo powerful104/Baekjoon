@@ -7,4 +7,5 @@ for _ in range(num):
         del li[len(li)-1]
     else:
         li.append(n)
+        
 print(sum(li))
