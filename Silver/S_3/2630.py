@@ -4,6 +4,7 @@ cnt1 = 0
 def calc(size,arr):
     global cnt0
     global cnt1
+    
     if size == 1 :
         if arr[0][0] == 0:
             cnt0 += 1
