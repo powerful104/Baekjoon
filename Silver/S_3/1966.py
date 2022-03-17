@@ -6,6 +6,7 @@ for _ in range(num):
     doc = [0]*n
     doc[m]=1
     ans=0
+    
     while sum(doc)!=0:
         if li[0]==max(li):
             li.pop(0)
@@ -14,4 +15,5 @@ for _ in range(num):
         else:
             li.append(li.pop(0))
             doc.append(doc.pop(0))
+            
     print(ans)
