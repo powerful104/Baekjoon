@@ -9,6 +9,7 @@ def P(num):
         return 4
     else:
         return P(num-3)+P(num-2)+P(num-1)
+    
 num = int(input())
 
 for _ in range(num):
