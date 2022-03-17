@@ -5,6 +5,7 @@ stack=[]
 for _ in range(num):
     li = list(map(str, sys.stdin.readline().split()))
     n=0
+    
     if li[0]=="push":
         stack.append(int(li[1]))
     elif li[0] == "pop":
