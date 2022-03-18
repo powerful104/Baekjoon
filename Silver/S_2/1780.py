@@ -6,6 +6,7 @@ def calc(size, arr):
     global cntm1
     global cnt0
     global cnt1
+    
     if size == 1 :
         if arr[0][0] == 0:
             cnt0 += 1
@@ -14,6 +15,7 @@ def calc(size, arr):
         elif arr[0][0] == -1:
             cntm1 += 1
         return
+    
     check = 0
     for i in range(size):
         for j in range(size):
