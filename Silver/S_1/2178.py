@@ -22,6 +22,7 @@ def solution(maps):
             if maps[curY+i[1]][curX+i[0]] > 0:
                 queue.append((curX+i[0],curY+i[1]))
                 maps[curY+i[1]][curX+i[0]] = maps[curY][curX]-1
+                
     if maps[y][x] > 0:
         answer = -1
     else:
