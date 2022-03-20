@@ -1,4 +1,5 @@
 import re
+
 s = input()
 num = list(map(int, re.split('[-+]',s)))
 exp = ' '.join(re.split('[0123456789]',s)).split()
