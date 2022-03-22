@@ -14,9 +14,11 @@ for i in range(N-1,-1,-1):
             c=c-2**i
         else:
             li.append(0)
+            
 ans=0
 r=1
 li.reverse()
+
 for i in range(len(li)):
     ans+=li[i]*r
     r*=4
