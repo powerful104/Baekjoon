@@ -7,6 +7,7 @@ maxa=0
 mina=1000
 maxh=0
 num = int(input())
+
 for _ in range(num):
     a, b = map(int, input().split())
     li[a-1] = b
@@ -16,7 +17,9 @@ for _ in range(num):
         mina=a
     if b>maxh:
         maxh=b
+        
 ans=0
+
 for j in range(1,maxh+1):
     maxb=0
     minb=maxa
@@ -27,4 +30,5 @@ for j in range(1,maxh+1):
             if i<minb:
                 minb=i
     ans+=maxb-minb+1
+    
 print(ans)
