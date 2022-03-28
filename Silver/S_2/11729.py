@@ -9,7 +9,9 @@ def hanoi(n, start, via, to):
         answer.append([start, to])
         hanoi(n-1, via, start, to)
     return
+
 hanoi(num,1,2,3)
 print(len(answer))
+
 for i in answer:
     print(i[0],i[1])
