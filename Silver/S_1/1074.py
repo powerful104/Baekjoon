@@ -1,5 +1,6 @@
 N, r, c= map(int, input().split())
 li=[]
+
 for i in range(N-1,-1,-1):
     if r>2**i-1:
         if c>2**i-1:
@@ -22,4 +23,5 @@ li.reverse()
 for i in range(len(li)):
     ans+=li[i]*r
     r*=4
+    
 print(ans)
