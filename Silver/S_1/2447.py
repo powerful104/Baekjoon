@@ -3,14 +3,18 @@ def rect(n):
         return [["*"]]
     ret = [[] for _ in range(n)]
     prev = rect(n//3)
+    
     for i in range(3):
         for j in range(n//3):
             if i == 1:
                 ret[j+(n//3)*i] = (prev[j] + [" "]*(n//3) + prev[j])
             else:
                 ret[j+(n//3)*i] = (prev[j]*3)
+                
     return ret
+
 n = int(input())
+
 for i in rect(n):
     print("".join(i))
 
