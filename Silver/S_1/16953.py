@@ -1,6 +1,7 @@
 a,b= map(int, input().split())
 ans=0
 check=0
+
 while b>a:
     if str(b)[-1]=='1':
         b=b//10
@@ -12,6 +13,7 @@ while b>a:
     if b==a:
         check=1
         break
+        
 if check==1:
     print(ans+1)
 else:
