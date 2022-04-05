@@ -11,6 +11,7 @@ def is_prime_number(n):
     return array
 
 prime = is_prime_number(1000000)
+
 while True:
     n = int(input())
     if n == 0 :
