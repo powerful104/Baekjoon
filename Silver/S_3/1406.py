@@ -21,5 +21,6 @@ for _ in range(num):
             del left[-1]
     else:
         left.append(li[1])
+        
 right.reverse()
 print("".join(left)+"".join(right))
