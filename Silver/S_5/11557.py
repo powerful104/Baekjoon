@@ -7,4 +7,5 @@ for _ in range(int(input())):
         if int(b)>maxl:
             maxs=a
             maxl=int(b)
+            
     print(maxs)
