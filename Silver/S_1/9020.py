@@ -13,6 +13,7 @@ li.sort()
 io=0
 jo=0
 num=int(input())
+
 for _ in range(num):
     n=int(sys.stdin.readline())
     for i in range(len(li)):
