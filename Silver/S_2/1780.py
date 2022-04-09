@@ -17,6 +17,7 @@ def calc(size, arr):
         return
     
     check = 0
+    
     for i in range(size):
         for j in range(size):
             if arr[i][j] == arr[0][0]:
