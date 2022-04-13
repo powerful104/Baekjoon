@@ -13,6 +13,8 @@ for i in range(min(a,b)):
                 check=1
                 ans=i+1
                 break
+            
         if check==1:
             break
+        
 print(ans*ans)
