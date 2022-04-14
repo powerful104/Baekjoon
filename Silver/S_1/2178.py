@@ -4,6 +4,7 @@ def solution(maps):
     #map 재구성
     x = len(maps[0])
     y = len(maps)
+    
     for i in maps:
         i.insert(0,0)
         i.append(0)
