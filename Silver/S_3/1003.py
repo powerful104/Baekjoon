@@ -10,6 +10,7 @@ def fibo(n):
     return ans
 
 num = int(input())
+
 for _ in range(num):
     n = int(input())
     if(n==0):
