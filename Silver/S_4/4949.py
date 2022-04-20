@@ -3,6 +3,7 @@ while True:
     if s == ".":
         break
     st=""
+    
     for i in list(s):
         if i == "(":
             st+=i
