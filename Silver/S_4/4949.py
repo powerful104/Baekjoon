@@ -15,6 +15,7 @@ while True:
             st+=i
             
     s=str(st)
+    
     while "()" in s or "[]" in s:
         if "()" in s:
             a = s[:s.find("()")]
@@ -24,6 +25,7 @@ while True:
             a = s[:s.find("[]")]
             b = s[s.find("[]") + len("[]"):]
             s = a + b
+            
     if len(s)!=0:
         print("no")
     else:
