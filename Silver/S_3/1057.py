@@ -8,4 +8,5 @@ else:
         b = (b + 1) // 2
         c = (c + 1) // 2
         ans +=1
+        
 print(ans)
