@@ -7,6 +7,7 @@ for _ in range(a):
     
 for i in range(min(a,b)):
     check=0
+    
     for j in range(a-i):
         for k in range(b-i):
             if li[j][k]==li[j+i][k]==li[j][k+i]==li[j+i][k+i]:
