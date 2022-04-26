@@ -7,6 +7,7 @@ while True:
     c=min(li)
     mi+=1
     check=0
+    
     if mi==b:
         ans=c
         break
