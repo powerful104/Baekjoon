@@ -11,6 +11,7 @@ while True:
     if mi==b:
         ans=c
         break
+        
     del li[0]
     
     for i in li:
