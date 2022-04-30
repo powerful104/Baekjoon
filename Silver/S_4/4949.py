@@ -13,9 +13,8 @@ while True:
             st+=i
         elif i == "]":
             st+=i
-            
-    s=str(st)
     
+    s=str(st)
     while "()" in s or "[]" in s:
         if "()" in s:
             a = s[:s.find("()")]
