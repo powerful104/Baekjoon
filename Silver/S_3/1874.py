@@ -27,6 +27,7 @@ for i in li:
         break
     si.remove(i)
     ans+=["-"]
+
 if check==0:
     for i in ans:
         print(i)
