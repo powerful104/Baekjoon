@@ -23,4 +23,5 @@ for i in range(check,len(li)):
         sf.add(li[i][1])
     if li[i][1] in sa:
         sf.add(li[i][0])
+        
 print(len(sf))
