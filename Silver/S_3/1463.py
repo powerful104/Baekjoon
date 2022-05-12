@@ -1,7 +1,6 @@
 def P(num):
     li=[1]*(num+1)
     li[1]=0
-    
     for i in range(4,num+1):
         lit=[]
         if i%3==0:
