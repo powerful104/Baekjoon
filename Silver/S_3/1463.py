@@ -12,4 +12,5 @@ def P(num):
     return li[num]
 
 n = int(input())
+
 print(P(n))
