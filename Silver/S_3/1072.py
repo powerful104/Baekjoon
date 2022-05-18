@@ -10,6 +10,7 @@ else:
     while low <= high:
         mid = (low + high) // 2
         ta, tb = a + mid, b + mid
+        
         if math.floor(100 * tb / ta) > z:
             high = mid - 1
         else:
