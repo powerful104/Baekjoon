@@ -43,4 +43,5 @@ for _ in range(num):
             d=dirn[d-1]
         elif i=="R":
             d=dirn[d-3]
+            
     print((maxx-minx)*(maxy-miny))
