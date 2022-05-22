@@ -1,4 +1,5 @@
 import itertools as it
+
 num = int(input())
 li = list(map(int, input().split()))
 result = list(it.permutations(li,num))
