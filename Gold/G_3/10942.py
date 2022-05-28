@@ -18,6 +18,7 @@ for j in range(1,N+1):
         else:
             dp[j][i] = 1
 
+
 for _ in range(M):
     S, E = map(int, input().split())
     print(dp[S][E-1])
