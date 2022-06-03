@@ -43,6 +43,7 @@ arr = []
 for _ in range(int(input())):
     arr.append(list(map(int, input().split())))
 calc(len(arr),arr)
+
 print(cntm1)
 print(cnt0)
 print(cnt1)
