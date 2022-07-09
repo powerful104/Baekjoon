@@ -1,6 +1,3 @@
-from cv2 import split
-
-
 T = int(input())
 
 for _ in range(T):
