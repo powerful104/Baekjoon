@@ -30,6 +30,17 @@ air_DFS(0, 0)
 ans = 0
 
 while True:
+    tmp_sum = 0
+    
+    for i in range(N):
+        tmp_sum += sum(cheese_map[i])
+    
+    if tmp_sum == 0:
+        break
+    
+    air_map = [[1 for _ in range(M)] for _ in range(N)]
+    air_DFS(0, 0)
+    
     new_cheese_map = list(cheese_map)
     
     for y_ in range(N):
@@ -46,15 +57,5 @@ while True:
     cheese_map = list(new_cheese_map)
     
     ans += 1
-    tmp_sum = 0
-    
-    for i in range(N):
-        tmp_sum += sum(cheese_map[i])
-    
-    if tmp_sum == 0:
-        break
-    
-    air_map = [[1 for _ in range(M)] for _ in range(N)]
-    air_DFS(0, 0)
 
 print(ans)
